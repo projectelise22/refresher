@@ -60,6 +60,22 @@ module tb_1;
         $display("dyn_arr1 = %0p", dyn_arr1); 
     end
 
+    //Queues
+    bit [15:0] q_1[$] = {16'hFFFF, 16'hAAAA};
+    bit [15:0] temp_q = 16'h0000;
+    initial begin
+        $display("=======================");
+        q_1.insert(1, 16'h1234);
+        q_1.insert(3, 16'h1234);
+        q_1.insert(5, 16'h1234); //this will not be added since idx 5 does not exist
+        $display("q_1 = %0p", q_1);
+        q_1.delete(2);
+        $display("q_1 = %0p", q_1);
+        q_1.insert(0, 16'h5555);
+        temp_q = q_1.pop_front();
+        if (temp_q == 16'h5555) $display("q_1 array popped at front with 'h%0h", temp_q);
+    end 
+
     //Array reduction methods
     int arr_1_sum = 0;
     initial begin

@@ -1,8 +1,8 @@
-TOP_MODULE = tb_1
-VERILOG_SOURCES = tb_1.sv dut_1.sv 
+TOP_MODULE = tb_2
+VERILOG_SOURCES = tb_2.sv dut_1.sv 
 
 all:
-	verilator --cc --timing --exe --trace --build sim_main.cpp tb_1.sv dut_1.sv --top-module tb_1
+	verilator --cc --timing --exe --trace --build sim_main.cpp tb_2.sv dut_1.sv --top-module tb_2
 
 
 run: all

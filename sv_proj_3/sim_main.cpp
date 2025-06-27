@@ -1,7 +1,7 @@
 // sim_main.cpp
 // C++ test harness that Verilator uses to simulate the Verilog design
 // and generate a VCD waveform
-#include "Vtb_1.h"
+#include "Vtb_2.h"
 #include "verilated.h"
 #include "verilated_vcd_c.h"
 
@@ -11,7 +11,7 @@ double sc_time_stamp() { return main_time; }
 
 int main(int argc, char **argv) {
     Verilated::commandArgs(argc, argv);
-    Vtb_1 *top = new Vtb_1;
+    Vtb_2 *top = new Vtb_2;
     VerilatedVcdC *tfp = new VerilatedVcdC;
     Verilated::traceEverOn(true);
     top->trace(tfp, 99);
