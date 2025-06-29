@@ -1,0 +1,8 @@
+TB components and TB module created to test connection within components
+-> using an interface
+-> sending stimulus via transactions
+-> sharing created transactions using mailboxes
+-> connecting dut to tb components
+-> files will not work in verilator, it does not support classes, and interfaces,
+-> TB simulated using VivadoS
+-> random stimulus has no specific scenario, again only to test the connection between tb classes
