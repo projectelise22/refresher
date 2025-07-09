@@ -1,0 +1,31 @@
+Built simulation snapshot spi_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+[290000 DRV] Reset asserted, initialized inputs
+[290000 GEN] DATA_NEW: 0 | DIN: 3329 | CS: x | MOSI: x
+[550000 DRV] DATA_NEW: 1 | DIN: 3329 | CS: x | MOSI: x
+[3670000 MON] DATA SENT = 3329
+[3670000 SCB] Received serial data: 3329 MATCHED sent DIN: 3329
+[3670000 GEN] DATA_NEW: 1 | DIN: 2215 | CS: x | MOSI: x
+[4150000 DRV] DATA_NEW: 1 | DIN: 2215 | CS: x | MOSI: x
+[7270000 MON] DATA SENT = 2215
+[7270000 SCB] Received serial data: 2215 MATCHED sent DIN: 2215
+[7270000 GEN] DATA_NEW: 1 | DIN: 1038 | CS: x | MOSI: x
+[7750000 DRV] DATA_NEW: 1 | DIN: 1038 | CS: x | MOSI: x
+[10870000 MON] DATA SENT = 1038
+[10870000 SCB] Received serial data: 1038 MATCHED sent DIN: 1038
+[10870000 GEN] DATA_NEW: 0 | DIN: 485 | CS: x | MOSI: x
+[11350000 DRV] DATA_NEW: 1 | DIN: 485 | CS: x | MOSI: x
+[14470000 MON] DATA SENT = 485
+[14470000 SCB] Received serial data: 485 MATCHED sent DIN: 485
+[14470000 GEN] DATA_NEW: 1 | DIN: 3211 | CS: x | MOSI: x
+[14950000 DRV] DATA_NEW: 1 | DIN: 3211 | CS: x | MOSI: x
+[18070000 MON] DATA SENT = 3211
+[18070000 SCB] Received serial data: 3211 MATCHED sent DIN: 3211
+[18070000 GEN] DATA_NEW: 1 | DIN: 2778 | CS: x | MOSI: x
+[18550000 DRV] DATA_NEW: 1 | DIN: 2778 | CS: x | MOSI: x
+[21670000 MON] DATA SENT = 2778
+[21670000 SCB] Received serial data: 2778 MATCHED sent DIN: 2778
+[21670000 GEN] DATA_NEW: 0 | DIN: 1097 | CS: x | MOSI: x
+[22150000 DRV] DATA_NEW: 1 | DIN: 1097 | CS: x | MOSI: x
+[25270000 MON] DATA SENT = 1097
